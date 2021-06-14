@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">BMI Calculator</string>
-    <string name="app_about">About</string>
-    <string name="copyright">Copyright (c) 2021</string>
-    <string name="link">
-    Click here <a href="https://github.com/hani0518/bmicalculator">Github</a>
-    </string>
-</resources>
