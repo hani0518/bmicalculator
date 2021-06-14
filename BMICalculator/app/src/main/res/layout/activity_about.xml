@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:layout_marginTop="20dip"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="345dp"
+        android:layout_height="101dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="Easy to use and free BMI Calculator App. The Body Mass Index (BMI) is calculated with the standard formula also used by WHO."
+        android:textAlignment="center"
+        android:textColor="#0D0D10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="220dp"
+        android:text="Hani Shahida bt Adanan"
+        android:textAlignment="center"
+        android:textColor="#14151C"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:rotationX="2"
+        android:text="2019311727"
+        android:textAlignment="center"
+        android:textColor="#0F111B"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="280dp"
+        android:rotationX="2"
+        android:text="RCS2405A"
+        android:textAlignment="center"
+        android:textColor="#0E1120"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="310dp"
+        android:rotationX="2"
+        android:text="CS240"
+        android:textAlignment="center"
+        android:textColor="#0F1223"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="360dp"
+        android:rotationX="2"
+        android:text="@string/link"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textColorLink="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/copyright"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
